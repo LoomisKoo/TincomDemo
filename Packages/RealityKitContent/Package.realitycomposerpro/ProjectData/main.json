@@ -1,0 +1,22 @@
+{
+  "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/AppleDevice.usda" : "4C4BF9AD-4750-49B4-BD1F-2E3E204DCA9E",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "440DE5B4-E4E4-459B-AABF-9ACE96319272",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/procedural_sphere_grid.usda" : "34C460AE-CA1B-4348-BD05-621ACBDFFE97",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SceneFireword.usda" : "69133AB6-94BB-4FFE-90C6-5D167F32DAFF",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SceneFlowers.usda" : "D0ABCDDB-1D03-4124-A17C-7FD5F5028922",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SceneRain.usda" : "7DCAA009-220C-4416-9652-63EA37FDF859",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "03E02005-EFA6-48D6-8A76-05B2822A74E9",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/_GridMaterial.usda" : "01A389CE-549D-43D4-8082-422095AD9977",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/_PlainMaterial.usda" : "71393687-2933-4D8A-AC10-8E59942BADC1",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "FBD8436F-6B8B-4B82-99B5-995D538B4704",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/procedural_sphere_grid.usda" : "1CBF3893-ABFD-408C-8B91-045BFD257808",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SceneFireword.usda" : "CE31E00D-EA0D-4820-A6FF-56BA88DA716A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SceneFlowers.usda" : "1E10DE2A-1D63-4B56-82E2-35D96226C73A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SceneRain.usda" : "928656DE-4827-4C98-B1F3-EA1BC539E3CB",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SceneSnow.usda" : "E8C8FB2F-71FE-4E43-8630-3E0AAD8B1609",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "7EF42796-68EE-4330-954D-0853FBBEB57C"
+  }
+}

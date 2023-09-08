@@ -1,0 +1,84 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["Sphere", "_GridMaterial", "_PlainMaterial"]
+    rel material:binding = None (
+        bindMaterialAs = "weakerThanDescendants"
+    )
+
+    def Xform "ParticleEmitter" (
+        customData = {
+            float3 rotationEulerHint = (3.1415927, 0, 0)
+        }
+    )
+    {
+        quatf xformOp:orient = (-4.371139e-8, 1, 0, 0)
+        float3 xformOp:translate = (0, 3.6060538, -1)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "VFXEmitter"
+        {
+            token info:id = "RealityKit.VFXEmitter"
+
+            def RealityKitStruct "currentState"
+            {
+                int64 burstCount = 0
+                float3 emissionDirection = (0, 1, 0)
+                double emissionDuration = 0
+                bool isLocal = 1
+                bool loops = 1
+                float particleSpeed = 1
+                float3 shapeSize = (2, 1, 2)
+                bool spawnInheritParentColor = 1
+                token spawnOccasion = "OnCollide"
+                float spawnVelocityFactor = 0
+
+                def RealityKitStruct "mainEmitter"
+                {
+                    token animationRepeatMode = "AutoReverse"
+                    float birthRate = 500
+                    float colorEvolutionPower = 1
+                    int64 columnCount = 0
+                    float frameRate = 0
+                    bool isAnimated = 0
+                    float noiseScale = 0.5
+                    float noiseStrength = 0.5
+                    double particleLifeSpan = 5
+                    float particleMass = 0
+                    float particleSize = 0.02
+                    float3 radialGravityCenter = (1, 1, 0)
+                    int64 rowCount = 0
+                    float sizeMultiplierAtEndOfLifespan = 0.6
+                    float sizeMultiplierAtEndOfLifespanPower = 0
+                    float3 vortexDirection = (0, 1, 0)
+                }
+
+                def RealityKitStruct "spawnedEmitter"
+                {
+                }
+            }
+        }
+
+        def RealityKitComponent "Collider"
+        {
+            uint group = 4294967295
+            uniform token info:id = "RealityKit.Collider"
+            uint mask = 4294967295
+            token type = "Trigger"
+
+            def RealityKitStruct "Shape"
+            {
+                float3 extent = (0, 0, 0)
+                float radius = 100
+                token shapeType = "Sphere"
+            }
+        }
+    }
+}
+
